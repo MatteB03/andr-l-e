@@ -39,6 +39,6 @@ while errors < tries:
 
     errors += 1
     if errors < tries:
-        print(f"Azz hai sbagliato! Ti rimangono {tries-errors+1} tentativi")
+        print(f"Azz hai sbagliato! Ti rimangono {tries-errors} tentativi")
 else:
     print(f"Ci dispiace, hai perso! La label corretta era {correct_language}")
